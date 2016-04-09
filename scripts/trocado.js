@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".form-t__input-tooltip").on("click",function(){$(this).find(".form-t__tooltip").toggleClass("hide")}),$("input").on("focus",function(){var t=$(this);t.val()===t.attr("value")&&t.val("")}),$("input").on("blur",function(){""===$(this).val()&&$(this).val($(this).attr("value"))})});
